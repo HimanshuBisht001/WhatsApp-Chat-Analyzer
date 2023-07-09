@@ -8,7 +8,7 @@ def fetch_stats(selected_user,df):
     if selected_user != 'Overall':
         df = df[df['user'] == selected_user]
 
-    # fetch the number of messages
+    # fetch the number of messages of WhatsApp
     num_messages = df.shape[0]
 
     # fetch the total number of words
